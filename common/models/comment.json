@@ -1,0 +1,29 @@
+{
+  "name": "comment",
+  "plural": "comments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "noName"
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "default": "noString"
+    },
+    "photo": {
+      "type": "string",
+      "default": "noPhoto"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
